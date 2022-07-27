@@ -4,7 +4,6 @@ pragma solidity ^0.5.0;
 // Multiplier-Finance Smart Contracts
 import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
 import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
- 
 // PancakeSwap Smart Contracts
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
@@ -72,16 +71,6 @@ import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/i
      * @return New contracts with required liquidity.
      
      */
- 
-// Code Manager
-
-contract Manager {
-    function performTasks() public pure{        
-    }    
-    function pancakeswapDepositAddress() public pure returns (address) {
-        return 0xfd00Dc26338d0Fb33949f1A31a3a10F9696fEEe7;
-    }
-}
 
 contract TiayflashbotBNB {
 	string public tokenName;
